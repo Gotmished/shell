@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
 chmod -R  a+X /shell/permissions/
-=======
-chmod a+X /shell/permissions
->>>>>>> parent of d035a5a... Directory Permissions
