@@ -1,2 +1,2 @@
 #!/bin/bash
-173260714 | tr 01234567 bestchol
+echo 173260714 | tr 01234567 bestchol
