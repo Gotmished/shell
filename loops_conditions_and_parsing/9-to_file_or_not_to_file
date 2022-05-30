@@ -4,7 +4,7 @@ filename="./school"
 
 if [ ! -e "$filename" ]
 then
-    echo  "school file doesn't exist"
+    echo  "school file does not exist"
 elif [ -s "$filename" ]
 then
     echo -e "school file exists\nschool file is not empty"
