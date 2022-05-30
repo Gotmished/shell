@@ -2,7 +2,7 @@
 # This script prints a twelve-hour clock. Every 60th minute, 'Hour: x' is displayed for each hour.
 i=0
 echo "Hour: 0"
-while [ $i -le 13 ]; do
+while [ $i -le 12 ]; do
     seq  59
     i=$((i + 1))
     case $i in
