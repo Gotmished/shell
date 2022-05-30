@@ -1,18 +1,21 @@
 #!/usr/bin/env bash
 # This script is displaying '4' and 'bad luck from China' for the 4th iteration, '9' and 'bad luck from Japan' for the 9th iteration, '17' and 'bad luck from Italy' for the 17th iteration, and numbers one to 20 otherwise.   
-i=1
-while [ $i -le 20 ]
+i=0
+while [ $i -le 19 ]
 do
-    echo $i
 i=$((i + 1))
 case $i in
     4)
-	echo "4 bad luck from China"
+	echo -e "4\nbad luck from China"
 	;;
     9)
-	echo "9 bad luck from Japan"
+	echo -e "9\nbad luck from Japan"
 	;;
     17)
-	echo "17 bad luck from Italy"
+	echo -e "17\nbad luck from Italy"
+	;;
+    *)
+	echo $i
+	;;
 esac
 done
