@@ -8,6 +8,6 @@ echo "Best School"
 i=$(($i + 1))
 if [ $i = 9 ]
 then    
-echo -e "Best School \nHi"
+echo -e "Best School\nHi"
 fi
 done
