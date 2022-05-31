@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script displays the content of the file /etc/passwd, using the while loop + IFS. Result is a story.
+# IFS interprets what it is set as to be the separator between words, strings etc. Deafult is white space, and here it is using ':'. '-r' means that escape characters are read as just part of the string.
+pass="/etc/passwd"
+while IFS=: read -r h1 h2 h3 h4 h5 h6 h7
+do
+    echo "The user $h1 is part of the $h2 gang, lives in $h3 and rides $h4. $h5's place is protected by the passcode $h6, more info about the user here: $h7"
+done < "$pass"
