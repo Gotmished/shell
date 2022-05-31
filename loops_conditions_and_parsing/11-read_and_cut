@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script displays the content of the file /etc/passwd. It displays only the username, user id, and home directory path for the user.
+#'-r' allows processing of escape characters, therefore allowing the home directory path to be read
+#IFS= read -r line allows reading of one line of input in its entirety
+while IFS= read -r line
+do
+    echo "$line" | cut -d ':' -f1,3,6
+done < /etc/passwd
