@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+i=0
+while [ $i -le 5 ]
+do seq 1 2
+   i=$((i + 1))
+   case $i in
+       1)
+	   echo "This is 3"
+	   ;;
+       3)
+	   echo "This is 9"
+	   ;;
+   esac
+done

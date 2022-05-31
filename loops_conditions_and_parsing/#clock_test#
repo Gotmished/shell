@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+i=0
+while [ $i -le 5 ]
+do seq 1 3
+   i=$((i + 1))
+   if seq 3
+   then
+       echo "This is 3"
+   elif 
+   then
+       echo "This is 9"
+       fi
+done

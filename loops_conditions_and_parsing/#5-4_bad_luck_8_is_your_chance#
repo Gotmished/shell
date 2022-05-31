@@ -1,0 +1,16 @@
+/var/folders/15/vgm04skx08x2ky1gfyg4wd600000gn/T/TemporaryItems/NSIRD_screencaptureui_utAVhv/Screen\ Shot\ 2022-05-30\ at\ 7.31.29\ pm.png #!/usr/bin/env bash
+# This script is displaying 'bad luck for the 4th iteration, 'good luck for the 8th iteration, and 'Best School' otherwise for ten loops.
+i=0
+while [ $i -le 9 ]
+do
+i=$((i + 1))
+ if [ $i = 4 ]
+then
+    echo "bad luck"
+elif [ $i = 8 ]
+then
+    echo "good luck"
+ else
+     echo "Best School"
+ fi
+done
