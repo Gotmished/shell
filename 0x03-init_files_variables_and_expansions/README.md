@@ -1,0 +1,1 @@
+This directory contains tasks from project 0x04-init_files_variables_and_expansions

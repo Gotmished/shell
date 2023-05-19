@@ -1,0 +1,1 @@
+This directory contains tasks from project 0x02-io_redirections_and_filters

@@ -1,0 +1,1 @@
+This directory contains tasks from project 0x05-processes_and_signals
